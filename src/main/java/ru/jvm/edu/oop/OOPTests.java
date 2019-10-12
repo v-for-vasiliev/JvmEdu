@@ -1,5 +1,7 @@
 package ru.jvm.edu.oop;
 
+import java.util.Arrays;
+import java.util.List;
 import ru.jvm.edu.oop.incapsulation.iface.Animal;
 import ru.jvm.edu.oop.incapsulation.iface.Cat;
 import ru.jvm.edu.oop.incapsulation.iface.Fox;
@@ -7,9 +9,6 @@ import ru.jvm.edu.oop.inheritance.Spotify;
 import ru.jvm.edu.oop.inheritance.SpotifyPremium;
 import ru.jvm.edu.oop.polymorphism.AbdulTukTuk;
 import ru.jvm.edu.oop.polymorphism.TukTuk;
-
-import java.util.Arrays;
-import java.util.List;
 
 public class OOPTests {
 
