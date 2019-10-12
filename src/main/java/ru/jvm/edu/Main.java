@@ -5,6 +5,8 @@ public class Main {
     public static void main(String[] args) {
         //OOPTests.launch();
         //BuilderTests.launch();
-        RegexpTests.testRegExp("If X is 609348676234, Y is 3077, the sum is 609348679311.", "[0-9]{10,}");
+        RegexpTests.testRegExp(
+            "My email javacoder@gmail.com with password    SECRET115. Here is my old PASSWORD: PASS111.",
+            "(?<=password:?\\s{0,30})[a-zA-Z0-9]+");
     }
 }
