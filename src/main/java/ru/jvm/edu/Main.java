@@ -15,6 +15,7 @@ public class Main {
         Bomb b = new Bomb();
         b.setExplodeListener(message -> System.out.println(message));
         b.fire();
+        System.out.println("HAHAH");
     }
 
     private static class Bomb {
