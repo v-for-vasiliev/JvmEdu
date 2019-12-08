@@ -3,7 +3,7 @@ package ru.jvm.edu.chatclient;
 import ru.jvm.edu.chatclient.auth.AuthHandler;
 import ru.jvm.edu.chatclient.chat.ChatHandler;
 
-interface MessageService {
+public interface MessageService {
 
     void processMessage(Message message);
 
